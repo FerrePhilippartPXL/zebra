@@ -1,0 +1,162 @@
+/* Naam: */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: gray;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  margin: auto;
+}
+
+.header-left{
+  float: left;
+  word-spacing: 15px;
+}
+
+.header-right{
+  float: right;
+}
+
+a:hover {
+  color: white;
+}
+
+nav:hover a:not(:hover){
+  color: gray;
+}
+
+.HLSW {
+  color: white;
+  word-spacing: 15px;
+  text-decoration: none;
+}
+
+#onering {
+  position: relative;
+  float: right;
+  height: 80px;
+  width: 80px;
+  opacity: 1;
+}
+
+.intro, h1 p{
+  color: white;
+  background: black;
+  text-align: center;
+  width: 1200px;
+  height: 125px;
+  overflow: auto;
+  margin: auto;
+}
+
+.inhoud {
+  background-color: black;
+  overflow: auto;
+  width: 1200px;
+  margin: auto;
+}
+
+article {
+  width: 330px;
+  height: 800px;
+  background-color: white;
+  float: left;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 30px;
+  margin: 10px;
+  position: relative;
+}
+
+article h4{
+ margin: 20px;
+}
+
+article p{
+  margin-top: 50px;
+}
+
+article a{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+a.quest, a.info{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+}
+
+a.story{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+}
+
+span.hobbit{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+}
+
+span.human{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+}
+
+span.wizard{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: yellow;
+  color: white;
+}
+
+
+span.elf{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: #012e56;
+  color: white;
+}
+
+span.dwarf{
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: cyan;
+  color: white;
+}
+
+article {
+text-align: center;
+}
+
+img{
+  width: 200px;
+  opacity: 0.7;
+}
+
+.footer {
+  background: #000000;
+  color: gray;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}

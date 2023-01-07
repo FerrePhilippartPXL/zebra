@@ -1,0 +1,66 @@
+/* Naam: */
+
+body {
+  background-image: url("../assets/background.jpg");
+  background-color: #1d1d1d;
+  color: gold;
+}
+
+hr {
+  border-top: 1px white;
+}
+
+p {
+  color: white;
+}
+
+main {
+  width: 540px;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.fname{
+  float: left;
+}
+
+.fname input, .lname input{
+  width: 250px;
+}
+
+.lname input{
+  margin-left: 20px;
+}
+
+.lname label{
+  margin-left: 20px;
+}
+
+label{
+  float: left;
+}
+
+.boxtext{
+  margin-top: 30px;
+  width: 400px;
+}
+
+.box{
+  float: left;
+  width: 30px;
+}
+
+input{
+  width: 530px;
+  font-size: 18pt;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 48px;
+}
+
+
+
