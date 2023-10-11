@@ -3,7 +3,7 @@ opmaak met Markdown.
 
 
 a) Al onze Jenkins installaties stonden al in het Engels, hierbij de instructies om Jenkins van taal te veranderen.
-![alt text](relative%20path/to/img.jpg?raw=true "step1.png")
+![Screenshot](step1.png)
 
 b)
 
